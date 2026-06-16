@@ -1,0 +1,247 @@
+{
+  "truck_capacity_m3": 65.0,
+  "num_items": 30,
+  "total_volume_m3": 1.98833,
+  "items": [
+    {
+      "id": 0,
+      "height": 0.438,
+      "width": 0.161,
+      "depth": 0.393,
+      "volume": 0.02771,
+      "stop": "B"
+    },
+    {
+      "id": 1,
+      "height": 0.213,
+      "width": 0.196,
+      "depth": 0.718,
+      "volume": 0.02998,
+      "stop": "E"
+    },
+    {
+      "id": 2,
+      "height": 0.189,
+      "width": 0.34,
+      "depth": 0.221,
+      "volume": 0.0142,
+      "stop": "B"
+    },
+    {
+      "id": 3,
+      "height": 0.255,
+      "width": 0.421,
+      "depth": 0.593,
+      "volume": 0.06366,
+      "stop": "E"
+    },
+    {
+      "id": 4,
+      "height": 0.339,
+      "width": 0.352,
+      "depth": 0.395,
+      "volume": 0.04713,
+      "stop": "A"
+    },
+    {
+      "id": 5,
+      "height": 0.491,
+      "width": 0.222,
+      "depth": 0.496,
+      "volume": 0.05406,
+      "stop": "C"
+    },
+    {
+      "id": 6,
+      "height": 0.22,
+      "width": 0.581,
+      "depth": 0.436,
+      "volume": 0.05573,
+      "stop": "A"
+    },
+    {
+      "id": 7,
+      "height": 0.321,
+      "width": 0.312,
+      "depth": 0.441,
+      "volume": 0.04417,
+      "stop": "C"
+    },
+    {
+      "id": 8,
+      "height": 0.513,
+      "width": 0.478,
+      "depth": 0.575,
+      "volume": 0.141,
+      "stop": "D"
+    },
+    {
+      "id": 9,
+      "height": 0.185,
+      "width": 0.282,
+      "depth": 0.64,
+      "volume": 0.03339,
+      "stop": "C"
+    },
+    {
+      "id": 10,
+      "height": 0.41,
+      "width": 0.467,
+      "depth": 0.232,
+      "volume": 0.04442,
+      "stop": "B"
+    },
+    {
+      "id": 11,
+      "height": 0.498,
+      "width": 0.593,
+      "depth": 0.799,
+      "volume": 0.23596,
+      "stop": "A"
+    },
+    {
+      "id": 12,
+      "height": 0.321,
+      "width": 0.354,
+      "depth": 0.784,
+      "volume": 0.08909,
+      "stop": "B"
+    },
+    {
+      "id": 13,
+      "height": 0.317,
+      "width": 0.244,
+      "depth": 0.387,
+      "volume": 0.02993,
+      "stop": "A"
+    },
+    {
+      "id": 14,
+      "height": 0.424,
+      "width": 0.227,
+      "depth": 0.71,
+      "volume": 0.06834,
+      "stop": "B"
+    },
+    {
+      "id": 15,
+      "height": 0.358,
+      "width": 0.271,
+      "depth": 0.848,
+      "volume": 0.08227,
+      "stop": "E"
+    },
+    {
+      "id": 16,
+      "height": 0.249,
+      "width": 0.296,
+      "depth": 0.738,
+      "volume": 0.05439,
+      "stop": "A"
+    },
+    {
+      "id": 17,
+      "height": 0.253,
+      "width": 0.164,
+      "depth": 0.421,
+      "volume": 0.01747,
+      "stop": "C"
+    },
+    {
+      "id": 18,
+      "height": 0.18,
+      "width": 0.561,
+      "depth": 0.597,
+      "volume": 0.06029,
+      "stop": "C"
+    },
+    {
+      "id": 19,
+      "height": 0.246,
+      "width": 0.375,
+      "depth": 0.819,
+      "volume": 0.07555,
+      "stop": "D"
+    },
+    {
+      "id": 20,
+      "height": 0.214,
+      "width": 0.213,
+      "depth": 0.721,
+      "volume": 0.03286,
+      "stop": "E"
+    },
+    {
+      "id": 21,
+      "height": 0.268,
+      "width": 0.413,
+      "depth": 0.828,
+      "volume": 0.09165,
+      "stop": "D"
+    },
+    {
+      "id": 22,
+      "height": 0.313,
+      "width": 0.599,
+      "depth": 0.297,
+      "volume": 0.05568,
+      "stop": "D"
+    },
+    {
+      "id": 23,
+      "height": 0.191,
+      "width": 0.171,
+      "depth": 0.277,
+      "volume": 0.00905,
+      "stop": "B"
+    },
+    {
+      "id": 24,
+      "height": 0.506,
+      "width": 0.34,
+      "depth": 0.244,
+      "volume": 0.04198,
+      "stop": "D"
+    },
+    {
+      "id": 25,
+      "height": 0.418,
+      "width": 0.361,
+      "depth": 0.376,
+      "volume": 0.05674,
+      "stop": "E"
+    },
+    {
+      "id": 26,
+      "height": 0.537,
+      "width": 0.155,
+      "depth": 0.705,
+      "volume": 0.05868,
+      "stop": "E"
+    },
+    {
+      "id": 27,
+      "height": 0.488,
+      "width": 0.496,
+      "depth": 0.438,
+      "volume": 0.10602,
+      "stop": "C"
+    },
+    {
+      "id": 28,
+      "height": 0.346,
+      "width": 0.354,
+      "depth": 0.868,
+      "volume": 0.10632,
+      "stop": "C"
+    },
+    {
+      "id": 29,
+      "height": 0.587,
+      "width": 0.493,
+      "depth": 0.555,
+      "volume": 0.16061,
+      "stop": "A"
+    }
+  ]
+}
