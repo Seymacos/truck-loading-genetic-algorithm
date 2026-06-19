@@ -56,6 +56,43 @@ if __name__ == "__main__":
         print("     yet still achieves comparable fitness. This suggests multiple valid solutions exist.")
     print()
 
+    # 2. Spearman Rank Correlation
+    rho_values = []
+    for i, chrom in enumerate(ga_chroms):
+        rho, _ = spearmanr(expert_chrom, chrom)
+        rho_values.append(rho)
+
+    avg_rho = np.mean(rho_values)
+    std_rho = np.std(rho_values, ddof=1)
+    print("2. SPEARMAN RANK CORRELATION ANALYSIS:")
+    print(f"   - Average Spearman rho       : {avg_rho:.4f}")
+    print(f"   - Std deviation              : {std_rho:.4f}")
+    print(f"   - Min / Max rho              : {min(rho_values):.4f} / {max(rho_values):.4f}")
+    print()
+    print(f"   {'Run':>4} {'Fitness':>10} {'Spearman rho':>14}")
+    print(f"   {'-'*30}")
+    for i, (fit, rho) in enumerate(zip(ga_fitnesses, rho_values)):
+        print(f"   {i+1:>4} {fit:>10.4f} {rho:>14.4f}")
+    print()
+    if avg_rho > 0.8:
+        print("   - Interpretation: GA solutions closely follow the same ordering as the expert solution.")
+    elif avg_rho > 0.2:
+        print("   - Interpretation: GA and expert solutions share some structural similarity in item ordering.")
+    else:
+        print("   - Interpretation: GA explores very different orderings than the expert solution,")
+        print("     yet still achieves comparable fitness. This suggests multiple valid solutions exist.")
+    print()
+
+
+
+
+
+
+
+
+
+
+
     # 3. t-Test Analysis
     t_stat, p_value = ttest_1samp(ga_fitnesses, expert_fitness)
     print("3. ONE-SAMPLE t-TEST ANALYSIS:")
